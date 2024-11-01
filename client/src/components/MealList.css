@@ -1,0 +1,171 @@
+.meal-list-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 80px 0px;
+	gap: 43px;
+	width: 100%;
+	background: #faf9f8;
+	text-align: center;
+}
+
+.meal-list-container .meal-list-title {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	color: #4e5155;
+	width: 410px;
+	font-weight: 400;
+	font-size: 48px;
+	text-align: center;
+	line-height: 120%;
+}
+
+.meal-list-container .meal-list-my-order {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	color: #4e5155;
+	width: 1100px;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 120%;
+}
+
+.meal-list-container .meal-list-subtitle {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	color: #4e5155;
+	width: 1100px;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 120%;
+	text-align: center;
+}
+
+.meal-list-container .meal-list-recommendation {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	color: #4e5155;
+	width: 1100px;
+	font-weight: 400;
+	font-size: 32px;
+	text-align: left;
+	line-height: 120%;
+	padding: 1rem;
+	border-radius: 2vmin;
+	border: solid 2px black;
+}
+
+.meal-list-container .meal-list-preferences {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	color: #4e5155;
+	width: 1100px;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 120%;
+}
+
+.meal-cards-grid {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	gap: 20px;
+	width: 1100px;
+}
+
+.meal-list-container .meal-list-button {
+	width: 154px;
+	height: 48px;
+	background: #ffffff;
+	border: 1px solid #044379;
+	border-radius: 80px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #044379;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.meal-list-container .meal-list-button:hover {
+	background: #f0f0f0;
+}
+
+.meal-list-container {
+	padding: 20px;
+}
+
+.meal-list-title,
+.meal-list-my-order,
+.meal-list-subtitle,
+.meal-list-recommendation,
+.meal-list-preferences {
+	margin: 10px 0;
+}
+
+.meal-cards-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.continue-billing-button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.continue-billing-button:hover {
+	background-color: #0056b3;
+}
+.meal-list-container {
+	padding: 20px;
+}
+
+@media (max-width: 1100px) {
+    .meal-list-container .meal-cards-grid {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .meal-list-container .meal-list-title,
+    .meal-list-container .meal-list-my-order,
+    .meal-list-container .meal-list-subtitle,
+    .meal-list-container .meal-list-recommendation {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .meal-list-container {
+        padding: 20px 10px;
+    }
+
+    .meal-list-container .meal-list-title {
+        font-size: 36px;
+    }
+
+    .meal-list-container .meal-list-my-order {
+        font-size: 30px;
+    }
+
+    .meal-list-container .meal-list-subtitle {
+        font-size: 24px;
+    }
+
+    .meal-list-container .meal-list-recommendation {
+        font-size: 24px;
+    }
+
+    .meal-list-container .meal-cards-grid {
+        width: 100%;
+        max-width: none;
+    }
+}

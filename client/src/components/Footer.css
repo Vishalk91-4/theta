@@ -1,0 +1,75 @@
+.footer-container {
+    position: relative;
+    z-index: 5;
+    padding-top: 20px;
+    background-color: #124f5a;
+    margin: -10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-container h3{
+    color: #fff;
+}
+
+.footer-logo {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft-logo {
+    width: 250px;
+    height:auto;
+    align-self: center;
+}
+
+.footer-website a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-logo a {
+        display: flex;
+        gap: 20px;
+        justify-content: flex-start;
+        text-decoration: none;
+        color: #fff;
+        padding: 4px;
+}
+
+.footer-social a {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+}
+
+.back-to-top {
+    position: relative;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    margin-left: 18%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}

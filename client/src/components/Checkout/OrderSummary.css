@@ -1,0 +1,80 @@
+.order-summary > h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.line-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.line-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #727883;
+    margin-bottom: 5px;
+}
+
+.line-details > span:first-child {
+    text-align: left;
+}
+
+.line-details > span:nth-child(2) {
+    text-align: right;
+}
+
+.shipping-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #727883;
+    margin-bottom: 15px;
+}
+
+.shipping-details > span:first-child {
+    text-align: left;
+}
+
+.shipping-details > span:nth-child(2) {
+    text-align: right;
+}
+
+.tax-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tax-details > span:first-child {
+    text-align: left;
+}
+
+.tax-details > span:nth-child(2) {
+    text-align: right;
+}
+
+.order-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.order-total > span:first-child {
+    text-align: left;
+}
+
+.order-total > span:nth-child(2) {
+    text-align: right;
+}
+
+hr {
+    color: #727883;
+    margin-bottom: 15px;
+}

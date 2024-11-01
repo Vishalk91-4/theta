@@ -1,0 +1,108 @@
+.DeliveryInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem;
+    color: #212121;
+    /* border: 1px solid blue; */
+}
+
+.DeliveryInfo > h2 {
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.DeliveryInfo h3 {
+    text-align: left;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.delivery-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.delivery-form-line1,
+.delivery-form-line2,
+.delivery-form-line3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery-form-line1 > label {
+    width: 50%;
+}
+
+.delivery-form-line2 > label {
+    width: 33%;
+}
+
+.delivery-form-line3 > label {
+    width: 100%;
+}
+
+.delivery-form-line1 > label,
+.delivery-form-line2 > label,
+.delivery-form-line3 > label {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    color: #212121;
+    font-weight: 600;
+}
+
+.delivery-form-line1 > label > input,
+.delivery-form-line2 > label > input,
+.delivery-form-line3 > label > input {
+    border: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 1rem;
+    color: inherit;
+}
+
+.delivery-form-line1 > label > input:focus,
+.delivery-form-line2 > label > input:focus,
+.delivery-form-line3 > label > input:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+}
+
+.day-of-delivery {
+    padding-top: .5rem;
+}
+
+.day-of-delivery > label {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 10rem;
+    color: #212121;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.day-of-delivery > label > select {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    font-family: inherit;
+    color: inherit;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.payment-methods {
+    padding-block: 1rem;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.payment-methods div {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 4rem;
+}

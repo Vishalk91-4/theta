@@ -1,0 +1,118 @@
+.signup-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40ch;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #212121;
+}
+
+.signup-outer-step-container {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #F3F3F3;
+    height: 35rem;
+    width: 40rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.signup-step-container {
+    background-color: white;
+    border-radius: 10px;
+    height: 15rem;
+    max-width: 35rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.signup-form-container > h2 {
+    font-weight: 300;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.signup-form-container > label {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-weight: 500;
+}
+
+.signup-form-container input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    font-family: inherit;
+    color: inherit;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.signup-form-container input::placeholder {
+    color: #999;
+    opacity: 1; 
+}
+
+.signup-form-container input[type="text"],
+.signup-form-container input[type="email"],
+.signup-form-container input[type="password"],
+.signup-form-container input[type="number"],
+.signup-form-container input[type="name"],
+.signup-form-container input[type="age"],
+.signup-form-container input[type="homeAddress"],
+.signup-form-container input[type="dailyCalories"] {
+    background-color: #f9f9f9;
+}
+
+.signup-form-container input:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+}
+
+.signup-submit-button {
+    border: none;
+    border-radius: 25px;
+    padding: .75rem 1.25rem ;
+    font-size: .75rem;
+    background-color: #EA4335;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.signup-submit-button:hover {
+    background-color: #ea44359f;
+}
+
+@media (max-width: 600px) {
+    .signup-outer-step-container {
+        width: 100vw;
+    }
+    .signup-step-container {
+        width: 100vw;
+    }
+
+    .signup-form-container {
+        width: 95%; 
+    }
+}

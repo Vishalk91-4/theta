@@ -1,0 +1,77 @@
+.DietarySelections {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem;
+    color: #212121;
+    /* border: 1px solid blue; */
+}
+
+.DietarySelections > h2 {
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.dietary-lists-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+
+.preferences,
+.sensitivities {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: .75rem;
+    font-weight: 300;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 23rem;
+    /* border: 1px solid red; */
+}
+
+.preferences > h3,
+.sensitivities > h3 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.preferences-list,
+.sensitivities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.preferences-list-item,
+.sensitivities-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.preferences-list-item-top,
+.sensitivities-list-item-top {
+    display: flex;
+    gap: .5rem;
+}
+
+.dietary-selections-checkbox {
+    cursor: pointer;
+}
+
+.submit-button-container {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.submit-button.success {
+    background-color: green;
+    color: white;
+}

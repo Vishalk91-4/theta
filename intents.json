@@ -1,0 +1,534 @@
+{
+    "intents": [
+        {
+            "tag": "nutritional_info_vegetarian_chili",
+            "patterns": [
+                "Tell me about Vegetarian Chili",
+                "What are the nutritional facts for Vegetarian Chili?",
+                "How many calories are in Vegetarian Chili?",
+                "Vegetarian Chili nutrition"
+            ],
+            "responses": [
+                "Our Vegetarian Chili contains 400 calories, 15g of protein, 60g of carbs, and 10g of fats. It's a hearty chili with beans, tomatoes, and peppers."
+            ]
+        },
+        {
+            "tag": "hello_how_are_you",
+            "patterns": [
+                "Hi",
+                "How are you?",
+                "What's up?",
+                "How is your day"
+            ],
+            "responses": [
+                "Hello, how are you today?."
+            ]
+        },
+        {
+            "tag": "i_am_somewhat_active",
+            "patterns": [
+                "I am somewhat active",
+                "I am active",
+                "I am a little active",
+                "I am a bit active"
+            ],
+            "responses": [
+                "Based on your activity level I would recommend  our delicious Turkey Breast or Tuna Steak."
+            ]
+        },
+        {
+            "tag": "calorie_intake",
+            "patterns": [
+                "My caloric intake",
+                "My calories are",
+                "How many calories should I eat?",
+                "Calories"
+            ],
+            "responses": [
+                "Based on your calorie requirements I would recommend Vegetarian Chili.  You might  also enjoy trying our Beef and Broccoli Stir-Fry or Vegetable Stir-Fry with Tofu, they are low calorie and delicious"
+            ]
+        },
+        {
+            "tag": "Doing_well",
+            "patterns": [
+                "I am doing well",
+                "I am good",
+                "Everything is great?",
+                "Fantastic"
+            ],
+            "responses": [
+                "That is great to hear, how can I help you today?"
+            ]
+        },
+        {
+            "tag": "help_with_order",
+            "patterns": [
+                "How long does shipping take",
+                "When will I receive my shipment?",
+                "Shipping?",
+                "How long does it take to deliver?"
+            ],
+            "responses": [
+                "Shipping takes 2-3 days from order input."
+            ]
+        },
+        {
+            "tag": "nutritional_info_salmon_with_asparagus",
+            "patterns": [
+                "Tell me about Salmon with Asparagus",
+                "What are the nutritional facts for Salmon with Asparagus?",
+                "How many calories are in Salmon with Asparagus?",
+                "Salmon with Asparagus nutrition"
+            ],
+            "responses": [
+                "Our Salmon with Asparagus contains 500 calories, 35g of protein, 10g of carbs, and 30g of fats. It's grilled salmon served with asparagus."
+            ]
+        },
+        {
+            "tag": "nutritional_info_chicken_alfredo",
+            "patterns": [
+                "Tell me about Chicken Alfredo",
+                "What are the nutritional facts for Chicken Alfredo?",
+                "How many calories are in Chicken Alfredo?",
+                "Chicken Alfredo nutrition"
+            ],
+            "responses": [
+                "Our Chicken Alfredo contains 700 calories, 25g of protein, 60g of carbs, and 45g of fats. It's a creamy chicken Alfredo with gluten-free pasta."
+            ]
+        },
+        {
+            "tag": "nutritional_info_eggplant_parmesan",
+            "patterns": [
+                "Tell me about Eggplant Parmesan",
+                "What are the nutritional facts for Eggplant Parmesan?",
+                "How many calories are in Eggplant Parmesan?",
+                "Eggplant Parmesan nutrition"
+            ],
+            "responses": [
+                "Our Eggplant Parmesan contains 400 calories, 15g of protein, 45g of carbs, and 20g of fats. It's baked eggplant with marinara sauce and melted cheese."
+            ]
+        },
+        {
+            "tag": "nutritional_info_turkey_meatballs",
+            "patterns": [
+                "Tell me about Turkey Meatballs",
+                "What are the nutritional facts for Turkey Meatballs?",
+                "How many calories are in Turkey Meatballs?",
+                "Turkey Meatballs nutrition"
+            ],
+            "responses": [
+                "Our Turkey Meatballs contain 350 calories, 30g of protein, 10g of carbs, and 15g of fats. They're savory turkey meatballs in a rich tomato sauce."
+            ]
+        },
+        {
+            "tag": "nutritional_info_shrimp_scampi",
+            "patterns": [
+                "Tell me about Shrimp Scampi",
+                "What are the nutritional facts for Shrimp Scampi?",
+                "How many calories are in Shrimp Scampi?",
+                "Shrimp Scampi nutrition"
+            ],
+            "responses": [
+                "Our Shrimp Scampi contains 450 calories, 30g of protein, 35g of carbs, and 20g of fats. It's shrimp in a garlic butter sauce with gluten-free pasta."
+            ]
+        },
+        {
+            "tag": "nutritional_info_vegetable_lasagna",
+            "patterns": [
+                "Tell me about Vegetable Lasagna",
+                "What are the nutritional facts for Vegetable Lasagna?",
+                "How many calories are in Vegetable Lasagna?",
+                "Vegetable Lasagna nutrition"
+            ],
+            "responses": [
+                "Our Vegetable Lasagna contains 500 calories, 20g of protein, 60g of carbs, and 25g of fats. It's layers of vegetables, cheese, and gluten-free pasta."
+            ]
+        },
+        {
+            "tag": "nutritional_info_chicken_caesar_wrap",
+            "patterns": [
+                "Tell me about Chicken Caesar Wrap",
+                "What are the nutritional facts for Chicken Caesar Wrap?",
+                "How many calories are in Chicken Caesar Wrap?",
+                "Chicken Caesar Wrap nutrition"
+            ],
+            "responses": [
+                "Our Chicken Caesar Wrap contains 400 calories, 25g of protein, 30g of carbs, and 20g of fats. It's grilled chicken with Caesar dressing in a gluten-free wrap."
+            ]
+        },
+        {
+            "tag": "nutritional_info_greek_yogurt_parfait",
+            "patterns": [
+                "Tell me about Greek Yogurt Parfait with Berries and Granola",
+                "What are the nutritional facts for Greek Yogurt Parfait?",
+                "How many calories are in Greek Yogurt Parfait?",
+                "Greek Yogurt Parfait nutrition"
+            ],
+            "responses": [
+                "Our Greek Yogurt Parfait with Berries and Granola contains 300 calories, 20g of protein, 40g of carbs, and 10g of fats. It's layers of Greek yogurt, fresh berries, and a crunchy gluten-free granola."
+            ]
+        },
+        {
+            "tag": "nutritional_info_tuna_steak",
+            "patterns": [
+                "Tell me about Tuna Steak",
+                "What are the nutritional facts for Tuna Steak?",
+                "How many calories are in Tuna Steak?",
+                "Tuna Steak nutrition"
+            ],
+            "responses": [
+                "Our Tuna Steak contains 450 calories, 40g of protein, 20g of carbs, and 15g of fats. It's seared tuna steak served with a side of quinoa salad."
+            ]
+        },
+        {
+            "tag": "nutritional_info_pork_loins",
+            "patterns": [
+                "Tell me about Pork Loins",
+                "What are the nutritional facts for Pork Loins?",
+                "How many calories are in Pork Loins?",
+                "Pork Loins nutrition"
+            ],
+            "responses": [
+                "Our Pork Loins contain 500 calories, 40g of protein, 15g of carbs, and 25g of fats. They're tender pork loins grilled to perfection, served with a side of sautéed spinach."
+            ]
+        },
+        {
+            "tag": "nutritional_info_turkey_breast",
+            "patterns": [
+                "Tell me about Turkey Breast",
+                "What are the nutritional facts for Turkey Breast?",
+                "How many calories are in Turkey Breast?",
+                "Turkey Breast nutrition"
+            ],
+            "responses": [
+                "Our Turkey Breast contains 400 calories, 35g of protein, 10g of carbs, and 15g of fats. It's roasted turkey breast served with a side of green beans."
+            ]
+        },
+        {
+            "tag": "nutritional_info_three_meat_meatloaf",
+            "patterns": [
+                "Tell me about Three Meat Meatloaf",
+                "What are the nutritional facts for Three Meat Meatloaf?",
+                "How many calories are in Three Meat Meatloaf?",
+                "Three Meat Meatloaf nutrition"
+            ],
+            "responses": [
+                "Our Three Meat Meatloaf contains 550 calories, 40g of protein, 25g of carbs, and 30g of fats. It's a hearty meatloaf made with a blend of beef, pork, and veal, served with mashed potatoes."
+            ]
+        },
+        {
+            "tag": "nutritional_info_chicken_cordon_bleu",
+            "patterns": [
+                "Tell me about Chicken Cordon Bleu",
+                "What are the nutritional facts for Chicken Cordon Bleu?",
+                "How many calories are in Chicken Cordon Bleu?",
+                "Chicken Cordon Bleu nutrition"
+            ],
+            "responses": [
+                "Our Chicken Cordon Bleu contains 500 calories, 35g of protein, 20g of carbs, and 25g of fats. It's breaded chicken breast stuffed with ham and cheese, served with a side of steamed broccoli."
+            ]
+        },
+        {
+            "tag": "nutritional_info_steak",
+            "patterns": [
+                "Tell me about Steak",
+                "What are the nutritional facts for Steak?",
+                "How many calories are in Steak?",
+                "Steak nutrition"
+            ],
+            "responses": [
+                "Our Steak contains 600 calories, 45g of protein, 10g of carbs, and 35g of fats. It's a juicy, grilled steak cooked to perfection, served with roasted vegetables."
+            ]
+        },
+        {
+            "tag": "nutritional_info_chicken_alfredo_gluten_free",
+            "patterns": [
+                "Tell me about Chicken Alfredo (Gluten-Free)",
+                "What are the nutritional facts for Chicken Alfredo (Gluten-Free)?",
+                "How many calories are in Chicken Alfredo (Gluten-Free)?",
+                "Chicken Alfredo (Gluten-Free) nutrition"
+            ],
+            "responses": [
+                "Our Chicken Alfredo (Gluten-Free) contains 1400 calories, 50g of protein, 120g of carbs, and 90g of fats. It's family-sized creamy chicken Alfredo served with gluten-free pasta."
+            ]
+        },
+        {
+            "tag": "Quinoa_Salad",
+            "patterns": [
+                "Tell me about Quinoa Salad",
+                "What are the nutritional facts for Quinoa Salad?",
+                "How many calories are in Quinoa Salad?",
+                "Quinoa Salad nutrition"
+            ],
+            "responses": [
+                "Our Quinoa Salad contains 350 calories, 10g of protein, 45g of carbs, and 15g of fats. It's a healthy and delicious option with fresh vegetables."
+            ]
+        },
+        {
+            "tag": "Grilled_Chicken_Salad",
+            "patterns": [
+                "Tell me about Grilled Chicken Salad",
+                "What are the nutritional facts for Grilled Chicken Salad?",
+                "How many calories are in Grilled Chicken Salad?",
+                "Grilled Chicken Salad nutrition"
+            ],
+            "responses": [
+                "Our Grilled Chicken Salad contains 350 calories, 35g of protein, 10g of carbs, and 20g of fats. It's served over a bed of fresh greens."
+            ]
+        },
+        {
+            "tag": "Beef_AndBroccoli_StirFry",
+            "patterns": [
+                "Tell me about Beef and Broccoli Stir-Fry",
+                "What are the nutritional facts for Beef and Broccoli Stir-Fry?",
+                "How many calories are in Beef and Broccoli Stir-Fry?",
+                "Beef and Broccoli Stir-Fry nutrition"
+            ],
+            "responses": [
+                "Our Beef and Broccoli Stir-Fry contains 400 calories, 30g of protein, 15g of carbs, and 25g of fats. It's stir-fried with fresh broccoli in a savory sauce."
+            ]
+        },
+        {
+            "tag": "Vegetable_StirFry_With_Tofu",
+            "patterns": [
+                "Tell me about Vegetable Stir-Fry with Tofu",
+                "What are the nutritional facts for Vegetable Stir-Fry with Tofu?",
+                "How many calories are in Vegetable Stir-Fry with Tofu?",
+                "Vegetable Stir-Fry with Tofu nutrition"
+            ],
+            "responses": [
+                "Our Vegetable Stir-Fry with Tofu contains 350 calories, 15g of protein, 45g of carbs, and 10g of fats. It's a colorful stir-fry of mixed vegetables and tofu."
+            ]
+        },
+        {
+            "tag": "Spaghetti_Bolognese",
+            "patterns": [
+                "Tell me about Spaghetti Bolognese",
+                "What are the nutritional facts for Spaghetti Bolognese?",
+                "How many calories are in Spaghetti Bolognese?",
+                "Spaghetti Bolognese nutrition"
+            ],
+            "responses": [
+                "Our Spaghetti Bolognese contains 550 calories, 20g of protein, 60g of carbs, and 25g of fats. It's a classic spaghetti Bolognese with a rich meat sauce."
+            ]
+        },
+        {
+            "tag": "Chicken_Fajitas",
+            "patterns": [
+                "Tell me about Chicken Fajitas",
+                "What are the nutritional facts for Chicken Fajitas?",
+                "How many calories are in Chicken Fajitas?",
+                "Chicken Fajitas nutrition"
+            ],
+            "responses": [
+                "Our Chicken Fajitas contain 450 calories, 30g of protein, 40g of carbs, and 15g of fats. It's grilled chicken with bell peppers and onions, served with gluten-free tortillas."
+            ]
+        },
+        {
+            "tag": "Beef_Stroganoff",
+            "patterns": [
+                "Tell me about Beef Stroganoff",
+                "What are the nutritional facts for Beef Stroganoff?",
+                "How many calories are in Beef Stroganoff?",
+                "Beef Stroganoff nutrition"
+            ],
+            "responses": [
+                "Our Beef Stroganoff contains 600 calories, 30g of protein, 40g of carbs, and 35g of fats. It's made with gluten-free pasta."
+            ]
+        },
+        {
+            "tag": "Chicken_Alfredo",
+            "patterns": [
+                "Tell me about Chicken Alfredo (Gluten-Free)",
+                "What are the nutritional facts for Chicken Alfredo (Gluten-Free)?",
+                "How many calories are in Chicken Alfredo (Gluten-Free)?",
+                "Chicken Alfredo (Gluten-Free) nutrition"
+            ],
+            "responses": [
+                "Our Chicken Alfredo (Gluten-Free) contains 1400 calories, 50g of protein, 120g of carbs, and 90g of fats. It's family-sized creamy chicken Alfredo served with gluten-free pasta."
+            ]
+        },
+        {
+            "tag": "Salmon_With_Asparagus",
+            "patterns": [
+                "Tell me about Salmon with Asparagus (Gluten-Free)",
+                "What are the nutritional facts for Salmon with Asparagus (Gluten-Free)?",
+                "How many calories are in Salmon with Asparagus (Gluten-Free)?",
+                "Salmon with Asparagus (Gluten-Free) nutrition"
+            ],
+            "responses": [
+                "Our Salmon with Asparagus (Gluten-Free) contains 1000 calories, 70g of protein, 60g of carbs, and 40g of fats. It's family-sized oven-baked salmon fillets served with asparagus and quinoa."
+            ]
+        },
+        {
+            "tag": "Shrimp_Scampi",
+            "patterns": [
+                "Tell me about Shrimp Scampi (Gluten-Free)",
+                "What are the nutritional facts for Shrimp Scampi (Gluten-Free)?",
+                "How many calories are in Shrimp Scampi (Gluten-Free)?",
+                "Shrimp Scampi (Gluten-Free) nutrition"
+            ],
+            "responses": [
+                "Our Shrimp Scampi (Gluten-Free) contains 900 calories, 60g of protein, 70g of carbs, and 50g of fats. It's family-sized shrimp scampi served with gluten-free pasta and a garlic butter sauce."
+            ]
+        },
+        {
+            "tag": "recommend_meal",
+            "patterns": [
+                "Can you recommend a meal?",
+                "What meal should I try?",
+                "Give me a meal idea",
+                "What do you suggest I order?"
+            ],
+            "responses": [
+                "Based on our popular choices, I recommend trying our Grilled Chicken Salad or Quinoa Salad. They're healthy and delicious options."
+            ]
+        },
+        {
+            "tag": "gluten_free",
+            "patterns": [
+                "Do you have gluten free options?",
+                "I am allergic to gluten?",
+                "Gluten Free Meals",
+                "I have Gluten Allergy?"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend the gluten free versions of our Shrimp Scampi or Beef Stroganoff. I would also suggest the Quinoa Salad or Chicken Caesar Wrap with a Gluten Free Spinach Tortilla."
+            ]
+        },
+        {
+            "tag": "family_size",
+            "patterns": [
+                "Do you have larger portions?",
+                "Do you have family size?",
+                "Family size meals",
+                "Larger portions"
+            ],
+            "responses": [
+                "Yes, we offer family-sized portions for some of our meals. They're perfect for sharing!"
+            ]
+        },
+        {
+            "tag": "vegetarian",
+            "patterns": [
+                "Do you have vegetarian options?",
+                "I am vegetarian",
+                "Vegetarian meals",
+                "Vegetarian options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Vegetarian Chili or Vegetable Lasagna."
+            ]
+        },
+        {
+            "tag": "vegan",
+            "patterns": [
+                "Do you have vegan options?",
+                "I am vegan",
+                "Vegan meals",
+                "Vegan options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Vegetable Stir-Fry with Tofu or Quinoa Salad."
+            ]
+        },
+        {
+            "tag": "low_calorie",
+            "patterns": [
+                "Do you have low calorie options?",
+                "I am on a diet",
+                "Low calorie meals",
+                "Low calorie options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Beef and Broccoli Stir-Fry or Vegetable Stir-Fry with Tofu."
+            ]
+        },
+        {
+            "tag": "high_protein",
+            "patterns": [
+                "Do you have high protein options?",
+                "I am looking for high protein meals",
+                "High protein meals",
+                "High protein options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Turkey Meatballs or Tuna Steak."
+            ]
+        },
+        {
+            "tag": "high_fiber",
+            "patterns": [
+                "Do you have high fiber options?",
+                "I am looking for high fiber meals",
+                "High fiber meals",
+                "High fiber options"
+            ],
+            "responses": [
+                "Because you are looking for high fiber options I would recommend our Quinoa Salad or Vegetable Lasagna. "
+            ]
+        },
+        {
+            "tag": "high_carb",
+            "patterns": [
+                "Do you have high carb options?",
+                "I am looking for high carb meals",
+                "High carb meals",
+                "High carb options"
+            ],
+            "responses": [
+                "Based on your preferences I would recommend our Chicken Alfredo or Beef Stroganoff, both have delicious pasta great for carb loading."
+            ]
+        },
+        {
+            "tag": "seafood_pescatarian",
+            "patterns": [
+                "Seafood options?",
+                "I am a pescatarian",
+                "Pescatarian options",
+                "Anything with seafood?"
+            ],
+            "responses": [
+                "I would highly recommend the Shrimp Scampi or Salmon with Asparagus."
+            ]
+        },
+        {
+            "tag": "suggestions",
+            "patterns": [
+                "Can you suggest a meal?",
+                "Any meal suggestions?",
+                "What meal would you suggest?",
+                "Suggest a meal for me"
+            ],
+            "responses": [
+                "How about trying our Spaghetti Bolognese or Chicken Fajitas? They're both customer favorites."
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks that is great!",
+                "Thank you for your help",
+                "Thanks for the information",
+                "Thanks"
+            ],
+            "responses": [
+                "You are very welcome, have a great day!!."
+            ]
+        },
+        {
+            "tag": "good_bye",
+            "patterns": [
+                "Good Bye",
+                "Goodbye",
+                "Bye",
+                "That is all",
+                "That's all for now."
+            ],
+            "responses": [
+                "Goodbye and thanks for visiting Chef's Choice!!!."
+            ]
+        }
+    ]
+}
