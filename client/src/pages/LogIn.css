@@ -1,0 +1,114 @@
+.login-container {
+    padding: 80px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #faf9f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10.px;
+}
+
+.login-container form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    text-align: start;
+}
+
+.login-container form input[type="text"],
+.login-container form input[type="email"],
+.login-container form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container form button {
+    padding: 10px;
+    background-color: #be432b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 30px 150px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-login    {
+    background: white;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    margin: 0% 35%;
+    padding: 20px;
+}
+
+.logout-button {
+    border: none;
+    border-radius: 25px;
+    padding: .75rem 1.25rem ;
+    font-size: .75rem;
+    background-color: #EA4335;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.logout-button:hover {
+    background-color: #ea44359f;
+}

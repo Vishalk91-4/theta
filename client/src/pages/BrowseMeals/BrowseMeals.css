@@ -1,0 +1,83 @@
+.BrowseMeals {
+    height: fit-content;
+    width: 100vw;
+    background-color: #F5F5F5;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.browse-h2 {
+    color: #212121;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #212121;
+    padding-top: 2rem;
+}
+
+.filters {
+    margin: 0 auto;
+    padding-top: 2rem;
+    width: fit-content;
+    color: #212121;
+}
+
+.filters > select {
+    background-color: none;
+    cursor: pointer;
+    margin-left: .5rem;
+}
+
+.meal-card.browse {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	width: 350px;
+	height: auto;
+	background: #ffffff;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.meal-card.browse:hover {
+	transform: none;
+}
+
+.meal-cards-grid {
+    width: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+}
+
+.browse-view-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-top: -.75rem;
+}
+
+.browse-load-more-button {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    width: 10rem;
+    height: 3rem;
+    background: none;
+    border: 1px solid #017d8e;
+    color: #017d8e;
+    font-weight: 600;
+    border-radius: 100px;
+    font-size: 1rem;
+}
+
+.browse-load-more-button:hover {
+    background: none;
+    outline: 1px solid #017d8e;
+    outline-offset: 2px;
+}
